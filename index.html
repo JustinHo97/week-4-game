@@ -1,29 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Gem Game</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
     <h1>Gem Collector!</h1>
-    <div class = "instructions">
+    <div class="instructions">
         <p>You will be given a 4 random numbers at the start of the game.</p>
         <p>Clicking one of the crystals below will raise your score by one of the four random numbers.</p>
         <p>In order to win the game, you must match your score to the chosen random number.</p>
         <p>The gems will change in value after each round.</p>
     </div>
 
-    <div><span id = "targetScore">?</span></div>
-
-    <div id = "winsLosses">
-        <span id = "wins"></span>
-        <br>
-        <span id = "losses"></span>
+    <div>
+        <span id="targetScore">?</span>
     </div>
 
-    <div class = "score">Your total score is:</div>
-    <div class = "score" id = "currentScore">?</div>
+    <div id="winsLosses">
+        <p>Wins: <span id="wins"></span></p>
+        <p>Losses: <span id="losses"></span></p>
+    </div>
+
+    <div class="gems-box">
+        <button class="gem" id="gem1"></button>
+        <button class="gem" id="gem2"></button>
+        <button class="gem" id="gem3"></button>
+        <button class="gem" id="gem4"></button>
+
+    </div>
+
+    <div class="score">Your total score is:</div>
+    <div class="score" id="currentScore">?</div>
+
+    <div id="announcement"></div>
+
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src = "assets/javascript/game.js"></script>
 </body>
+
 </html>

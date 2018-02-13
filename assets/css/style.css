@@ -1,0 +1,33 @@
+.gem {
+    color: blue;
+    height: 100px;
+    width: 100px;
+}
+
+#gem1 {
+    background: url(../images/gem1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+#gem2 {
+    background: url(../images/gem2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+#gem3 {
+    background: url(../images/gem3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+#gem4 {
+    background: url(../images/gem4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
